@@ -1,0 +1,38 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+Webshare*.txt
+*proxies*.txt
+*credentials*.json
+*service*account*.json
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime / local outputs
+*.log
+logs/
+tmp/
+temp/
+output/
+extracted*/
+downloads/
+PDF_DOWNLOAD_PATH/
+*.sqlite
+*.db
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
